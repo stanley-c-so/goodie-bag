@@ -24,7 +24,7 @@ const Root = () => {
           <Switch>
             <Route exact path="/" render={() => <h1>Welcome to the Goodie Bag!</h1>} />
             <Route exact path="/candies" component={AllCandies} />
-            <Route redner={() => <h2>Not Found</h2>} />
+            <Route render={() => <h2>Not Found</h2>} />
           </Switch>
         </main>
       </div>
